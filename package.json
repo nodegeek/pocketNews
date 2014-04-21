@@ -1,0 +1,14 @@
+{
+    "name": "pocketNews",
+    "version": "0.0.1",
+    "private": true,
+    "main":"server.js",
+
+    "dependencies": {
+        "express": "4.x",
+        "jade": "*",
+        "morgan": "~1.0.0",
+        "body-parser": "~1.0.0",
+        "method-override": "~1.0.0"
+    }
+}
