@@ -15,9 +15,10 @@ var express    = require('express'); 		// call express
 var app        = express(); 				// define our app using express
 var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
-var News       = require('models/news');
+
 
 mongoose.connect('mongodb://localhost/newsdb');
+var News       = require('./model/news');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
